@@ -1,0 +1,17 @@
+.DrawerMain {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 9vh;
+}
+.roleOptions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 240px;
+  overflow: hidden;
+}

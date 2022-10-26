@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@datobs/react-image-magnifiers": "^1.4.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^7.6.1",
     "react": "^18.2.0",
+    "react-base64-downloader": "^2.1.7",
+    "react-bootstrap-icons": "^1.9.1",
+    "react-cropper": "^2.1.8",
     "react-dom": "^18.2.0",
+    "react-file-base64": "^1.0.3",
+    "react-image-crop": "^10.0.8",
+    "react-medium-image-zoom": "^5.1.1",
     "react-scripts": "5.0.1",
+    "universal-cookie": "^4.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

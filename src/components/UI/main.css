@@ -1,0 +1,47 @@
+.wallpaper {
+  width: 100vw;
+  object-fit: contain;
+}
+.WallHolder {
+  width: 100vw;
+  height: 100vh;
+  clip-path: inset(0 0 0 0);
+  /* background: red; */
+}
+.wallpaperHolder {
+  display: flex;
+  height: 92vh;
+  overflow: hidden;
+}
+.Main {
+  background: #fff;
+}
+.Main-sub {
+  position: relative;
+}
+.displayElement {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 92vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.blurrr {
+  margin: 50px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.39);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 30vh;
+  backdrop-filter: blur(2px);
+}
+.displayElement button {
+  background: red;
+}

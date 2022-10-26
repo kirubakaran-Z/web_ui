@@ -1,0 +1,66 @@
+.Gallery {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  height: 83vh;
+  overflow: scroll;
+}
+.galleryPic {
+  margin: 5px;
+  height: 300px;
+  object-fit: cover;
+}
+.Selected {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 92vh;
+  background: rgba(0, 0, 0, 0.464);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Selected img {
+  object-fit: scale-down;
+  width: 80%;
+  height: 80%;
+}
+.options-image {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 10px;
+  top: 10px;
+  right: 10px;
+}
+.CheckBox {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.481);
+  backdrop-filter: blur(2px);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.CheckBox div {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.301);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  box-shadow: 1px 1px 3px #000;
+}

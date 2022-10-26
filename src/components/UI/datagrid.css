@@ -1,0 +1,29 @@
+.Grid {
+  margin: 10px;
+  background: #fff;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+}
+.column {
+  text-align: center;
+  width: 150px;
+  overflow: hidden;
+  padding: 2px;
+  border-top: solid #000 1px;
+  border-left: solid #000 1px;
+}
+.column:last-child {
+  border-right: solid #000 1px;
+}
+.row:last-child .column {
+  border-bottom: solid #000 1px;
+}
+.row:first-child .column {
+  font-size: large;
+  font-weight: 500;
+  text-transform: capitalize;
+}

@@ -1,0 +1,100 @@
+nav {
+  width: 100vw;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-right: 20px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.NavBar {
+  height: 8vh;
+  min-height: 50px;
+  backdrop-filter: blur(5px);
+  position: relative;
+  z-index: 999;
+}
+.profiledrop {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.056);
+  right: 0px;
+  top: 0px;
+}
+.dropdowns {
+  position: absolute;
+  min-width: 180px;
+  padding: 10px;
+  top: 40px;
+  border-radius: 5px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.615);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.profile-buttom {
+  display: flex;
+  gap: 10px;
+}
+.MailId {
+  font-size: 12px;
+}
+.profile-big {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #fff;
+  overflow: hidden;
+  font-family: monospace;
+}
+.profile-big img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+img {
+  object-fit: contain;
+  width: 250px;
+}
+.tooglebutton {
+  background: #fff;
+  width: 25px;
+  height: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.toogle {
+  cursor: pointer;
+  flex-direction: column;
+  gap: 3px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

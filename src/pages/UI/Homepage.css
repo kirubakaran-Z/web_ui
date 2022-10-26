@@ -1,0 +1,25 @@
+main {
+  width: 100%;
+  position: absolute;
+  top: 8vh;
+  height: 92vh;
+  overflow: hidden;
+}
+.Drawer {
+  position: absolute;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.593);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+  transition: 0.2s;
+  overflow: hidden;
+}
+.belowDrawer {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(6, 6, 6, 0.382);
+  backdrop-filter: blur(2px);
+  z-index: 998;
+  transition: 0.6s;
+}

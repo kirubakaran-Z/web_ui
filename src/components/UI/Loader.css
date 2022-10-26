@@ -1,0 +1,61 @@
+.Loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lo {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: Blink 1.4s linear infinite;
+}
+@keyframes Blink {
+  0% {
+    background: rgb(115, 151, 25);
+  }
+  100% {
+    background: #0000;
+  }
+}
+.L1 {
+  top: 0px;
+}
+.L2 {
+  top: 6px;
+  right: 6px;
+  animation-delay: 0.2s;
+}
+.L3 {
+  right: 0px;
+  animation-delay: 0.4s;
+}
+.L4 {
+  bottom: 6px;
+  right: 6px;
+  animation-delay: 0.6s;
+}
+.L5 {
+  bottom: 0px;
+  animation-delay: 0.8s;
+}
+.L6 {
+  bottom: 6px;
+  left: 6px;
+  animation-delay: 1s;
+}
+.L7 {
+  left: 0px;
+  animation-delay: 1.2s;
+}
+.L8 {
+  left: 6px;
+  top: 6px;
+  animation-delay: 1.4s;
+}
